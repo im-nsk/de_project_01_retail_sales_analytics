@@ -1,6 +1,6 @@
 
 -- 2. Load the data from file to table, using copy command
--- 	*  To use the copy command, connect the psql  shell with the db. Write the copy command on shell
+-- To use the copy command, connect the psql  shell with the db. Write the copy command on shell
 
 \COPY staging_table FROM 'C:\Desktop\retail_sales_data.csv' DELIMITER ',' CSV HEADER;
 
